@@ -3,7 +3,7 @@ var log = require('../lib/ezlog.js')({
 	pref: {
 		t: '[main test]',
 		c: 'green',
-		s: 'bold'
+		s: ['underline', 'bold']
 	},
 
 	text: {
