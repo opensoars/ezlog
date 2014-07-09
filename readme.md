@@ -9,7 +9,24 @@ Simple logger function that takes care of prefixes and colored output.
 ## Options
 * Multiple style properties: ['bold', 'underline']. Or just one: 'bold'
 * Prefixes if needed.
-* 9 Colors to choose from.
+* 9 Colors
+	* white
+	* grey
+	* black
+	* blue
+	* cyan
+	* green
+	* magenta
+	* red
+	* yellow
+* 5 Styles (if supported by your os/terminal)
+	* bold
+	* italic
+	* underline
+	* inverse
+	* strikethrough
+
+
 
 ## Use
 ```js
@@ -33,5 +50,8 @@ log('It', 'works');
 ```
 Which should result in the following:
 
-<span style='color: #00FF00;'>[test]</span> <span style='color: #0064FF;'>It</span>
-<span style='color: #00FF00;'>[test]</span> <span style='color: #0064FF;'>works</span>
+[test] It
+[test] works
+
+Where [test] will be colored green bold
+And 'It' and 'works' will be colored blue bold
