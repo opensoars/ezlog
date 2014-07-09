@@ -1,0 +1,7 @@
+{
+  "name": "ezlog",
+  "version": "0.0.1",
+  "dependencies": {
+  	"opensoars_cls": "*"
+  }
+}
