@@ -3,9 +3,6 @@ ezlog
 
 Simple logger function that takes care of prefixes and colored output.
 
-## Install
-`npm install ezlogger` or clone source into project node_modules folder.
-
 ## Options
 * Multiple style properties: ['bold', 'underline']. Or just one: 'bold'
 * Prefixes if needed.
@@ -26,7 +23,8 @@ Simple logger function that takes care of prefixes and colored output.
 	* inverse
 	* strikethrough
 
-
+## Install
+`npm install ezlogger` or clone source into project node_modules folder.
 
 ## Use
 ```js
