@@ -53,5 +53,4 @@ Which should result in the following:
 * [test] It
 * [test] works
 
-Where [test] will be colored green bold
-And 'It' and 'works' will be colored blue bold
+Where [test] will be colored green bold, and 'It' and 'works' will be colored blue bold.
