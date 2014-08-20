@@ -23,10 +23,11 @@ var log = new Ezlog({
 ```
 Which should result in the following:
 
-* [test] It
-* [test] works
+* [main test] hello
+* [main test] world
+* [main test] {"a":"b"}
 
-Where [test] will be colored green bold, and 'It' and 'works' will be colored blue bold.
+Where [main test] will be colored green bold, and 'hello', 'world' and `{"a":"b"}` will be colored blue bold.
 
 ## Options
 * Multiple style properties: `['bold', 'underline']`. Or just one: `'bold'`
