@@ -8,22 +8,17 @@ Simple logger function that takes care of prefixes and colored output.
 
 ## Use
 ```js
-var log = require('../lib/ezlog.js')({
-	
+var Ezlog = require('Ezlog');
+
+var log = new Ezlog({
 	pref: {
-		t: '[test]',
+		t: '[main test]',
 		c: 'green',
-		s: 'bold'
+		s: ['underline', 'bold']
 	},
 
-	text: {
-		c: 'blue',
-		s: 'bold'
-	}
-
+	text: { c: 'blue', s: 'bold' }
 });
-
-log('It', 'works');
 
 ```
 Which should result in the following:
