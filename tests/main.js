@@ -1,4 +1,6 @@
-var log = require('../lib/ezlog.js')({
+var Ezlog = require('../lib/ezlog.js');
+
+var log = new Ezlog({
 
 	pref: {
 		t: '[main test]',
@@ -13,4 +15,10 @@ var log = require('../lib/ezlog.js')({
 
 });
 
-log('It', 'works');
+if(typeof log !== 'function') return console.log("typeof log !== 'function'");
+
+log('hello', 'world');
+
+log({
+	a: 'b'
+});
