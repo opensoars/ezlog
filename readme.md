@@ -29,7 +29,7 @@ Which should result in the following:
 Where [test] will be colored green bold, and 'It' and 'works' will be colored blue bold.
 
 ## Options
-* Multiple style properties: ['bold', 'underline']. Or just one: 'bold'
+* Multiple style properties: `['bold', 'underline']`. Or just one: `'bold'`
 * Prefixes if needed.
 * 9 Colors
 	* white
