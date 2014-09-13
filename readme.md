@@ -1,6 +1,8 @@
 ezlog
 =====
 
+[![Build Status](https://travis-ci.org/opensoars/ezlog.svg?branch=master)](https://travis-ci.org/opensoars/ezlog)
+
 Simple logger function that takes care of prefixes and colored output.
 
 ## Install
