@@ -1,7 +1,12 @@
 {
   "name": "ezlog",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "dependencies": {
-  	"opensoars_cls": "*"
-  }
+    "opensoars_cls": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opensoars/ezlog"
+  },
+  "readmeFilename": "readme.md"
 }
