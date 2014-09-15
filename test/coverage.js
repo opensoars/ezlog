@@ -1,4 +1,4 @@
-var Ezlog = require('../index.js');
+var Ezlog = require('../lib/Ezlog.js');
 
 var log1 = new Ezlog({
 
@@ -25,3 +25,16 @@ log1({
 var log2 = new Ezlog();
 
 log2('By default it looks like this!');
+
+
+var log3 = new Ezlog([]);
+
+log3('When wrong options are given, we get a default logger (array)');
+
+
+var log3 = new Ezlog('HELLO');
+
+log3('When wrong options are given, we get a default logger (string)');
+
+
+

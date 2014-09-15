@@ -1,19 +1,45 @@
 var assert = require('assert');
 
-var Ezlog = require('../index.js');
+var Ezlog = require('../lib/Ezlog.js');
 
-describe('logging', function (){
+describe('Ezlog', function (){
 
-	it('should log a green prefix and a red text', function (){
+	describe('#colored output', function (){
 
-		var logRed = new Ezlog({
-			pref: {c: 'green', t: '[green prefix]'},
-			text: {c: 'red'}
+		it('should log a green prefix and a red text', function (){
+
+			var logRed = new Ezlog({
+				pref: {c: 'green', t: '[green prefix]'},
+				text: {c: 'red'}
+			});
+
+			logRed('Hello world, red text!');
 		});
 
-		logRed('Hello world, red text!');
+	});
 
-		
+	describe('#types', function (){
+
+		it('Ezlog Class should be of type function', function (){
+			assert.equal('function', typeof Ezlog);
+		});
+
+		it('Ezlog instance should be of type function', function(){
+			assert.equal('function', typeof new Ezlog());
+		});
+
+	});
+
+	describe('#default', function (){
+
+		it('Ezlog should return a default logger, when no options are given', function (){
+			assert.equal('function', typeof new Ezlog());
+		});
+
+		it('Ezlog should return a default logger, when WRONG options are given', function (){
+			assert.equal('function', typeof new Ezlog([]) );
+			assert.equal('function', typeof new Ezlog('') );
+		});
 
 	});
 
