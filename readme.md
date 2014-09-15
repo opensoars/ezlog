@@ -1,8 +1,16 @@
 ezlog
 =====
 
-[![Build Status](http://img.shields.io/travis/opensoars/ezlog.svg?style=flat)](https://travis-ci.org/opensoars/ezlog)
-[![Coverage Status](http://img.shields.io/coveralls/opensoars/ezlog.svg?style=flat)](https://coveralls.io/r/opensoars/ezlog?branch=master)
+[![Build Status](http://img.shields.io/travis/opensoars/ezlog.svg?style=flat)][travis]
+[![Coverage Status](http://img.shields.io/coveralls/opensoars/ezlog.svg?style=flat)][coveralls]
+[![Dependency Status](http://img.shields.io/gemnasium/opensoars/ezlog.svg?style=flat)][gemnasium]
+
+[travis]: (https://travis-ci.org/opensoars/ezlog)
+[coveralls]: (https://coveralls.io/r/opensoars/ezlog?branch=master)
+[gemnasium]: (https://gemnasium.com/opensoars/ezlog)
+
+
+
 
 Simple logger function that takes care of prefixes and colored output.
 
