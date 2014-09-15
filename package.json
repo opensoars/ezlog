@@ -6,8 +6,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "opensoars_cls": "*",
-    "mocha-lcov-reporter": "0.0.1"
+    "opensoars_cls": "*"
   },
   "devDependencies": {
     "mocha": "*",
