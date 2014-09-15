@@ -7,7 +7,7 @@
     "coveralls": "node node_modules/coveralls/bin/coveralls.js < coverage/lcov.info"
   },
   "dependencies": {
-    "opensoars_cls": "0.0.1",
+    "opensoars_cls": "0.0.2",
     "coveralls": "~2.11.1"
   },  
 
