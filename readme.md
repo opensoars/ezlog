@@ -1,7 +1,7 @@
 ezlog
 =====
 
-[![Build Status](http://img.shields.io/travis/opensoars/ezlog.svg?style=flat)][travis]&nbsp;
+[![Build Status](http://img.shields.io/travis/opensoars/ezlog.svg?style=flat)][https://travis-ci.org/opensoars/ezlog]&nbsp;
 [![Coverage Status](http://img.shields.io/coveralls/opensoars/ezlog.svg?style=flat)][coveralls]&nbsp;
 [![Dependency Status](http://img.shields.io/gemnasium/opensoars/ezlog.svg?style=flat)][gemnasium]&nbsp;
 
