@@ -1,6 +1,6 @@
 var assert = require('assert');
 
-var Ezlog = require('../lib/Ezlog.js');
+var Ezlog = require('./lib/Ezlog.js');
 
 describe('Ezlog', function (){
 
