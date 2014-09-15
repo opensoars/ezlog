@@ -1,4 +1,4 @@
-var Ezlog = require('../lib/ezlog.js');
+var Ezlog = require('../index.js');
 
 var log = new Ezlog({
 
@@ -14,8 +14,6 @@ var log = new Ezlog({
 	}
 
 });
-
-if(typeof log !== 'function') return console.log("typeof log !== 'function'");
 
 log('hello', 'world');
 
