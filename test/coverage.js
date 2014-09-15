@@ -1,6 +1,6 @@
 var Ezlog = require('../index.js');
 
-var log = new Ezlog({
+var log1 = new Ezlog({
 
 	pref: {
 		t: '[main test]',
@@ -15,8 +15,13 @@ var log = new Ezlog({
 
 });
 
-log('hello', 'world');
+log1('hello', 'world');
 
-log({
+log1({
 	a: 'b'
 });
+
+
+var log2 = new Ezlog();
+
+log2('By default it looks like this!');

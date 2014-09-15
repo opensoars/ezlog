@@ -1,9 +1,21 @@
 {
   "name": "ezlog",
   "version": "0.0.6",
+
+  "scripts": {
+    "coverage": "istanbul cover ./test/coverage.js",
+    "test": "mocha ./test/mocha.js"
+  },
+
   "dependencies": {
     "opensoars_cls": "*"
   },
+
+  "devDependencies": {
+    "mocha": "*",
+    "istanbul": "*"
+  },
+
   "repository": {
     "type": "git",
     "url": "https://github.com/opensoars/ezlog"
