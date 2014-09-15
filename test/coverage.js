@@ -1,4 +1,4 @@
-var Ezlog = require('../lib/Ezlog.js');
+var Ezlog = require(__dirname + '/../lib/ezlog.js');
 
 var log1 = new Ezlog({
 
