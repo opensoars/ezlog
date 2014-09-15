@@ -3,7 +3,7 @@
   "version": "0.0.6",
   "scripts": {
     "coverage": "istanbul cover ./test/coverage.js",
-    "test": "mocha ./test/mocha.js"
+    "test": "mocha"
   },
   "dependencies": {
     "opensoars_cls": "*",
