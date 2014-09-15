@@ -1,13 +1,9 @@
 ezlog
 =====
 
-[![Build Status](http://img.shields.io/travis/opensoars/ezlog.svg?style=flat)][https://travis-ci.org/opensoars/ezlog]&nbsp;
-[![Coverage Status](http://img.shields.io/coveralls/opensoars/ezlog.svg?style=flat)][coveralls]&nbsp;
-[![Dependency Status](http://img.shields.io/gemnasium/opensoars/ezlog.svg?style=flat)][gemnasium]&nbsp;
-
-[travis]: (https://travis-ci.org/opensoars/ezlog)
-[coveralls]: (https://coveralls.io/r/opensoars/ezlog?branch=master)
-[gemnasium]: (https://gemnasium.com/opensoars/ezlog)
+[![Build Status](http://img.shields.io/travis/opensoars/ezlog.svg?style=flat)](https://travis-ci.org/opensoars/ezlog)
+[![Coverage Status](http://img.shields.io/coveralls/opensoars/ezlog.svg?style=flat)](https://coveralls.io/r/opensoars/ezlog)
+[![Dependency Status](http://img.shields.io/gemnasium/opensoars/ezlog.svg?style=flat)](https://gemnasium.com/opensoars/ezlog)
 
 
 
