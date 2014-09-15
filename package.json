@@ -2,12 +2,15 @@
   "name": "ezlog",
   "version": "0.0.6",
   "scripts": {
+    "test": "mocha ./test/mocha.js",
     "coverage": "istanbul cover ./test/coverage.js",
-    "test": "mocha ./test/mocha.js"
+    "coveralls": "npm run-script coverage && node bin/coveralls.js < coverage/lcov.info"
   },
   "dependencies": {
-    "opensoars_cls": "*"
-  },
+    "opensoars_cls": "*",
+    "coveralls": "~2.11.1"
+  },  
+
   "devDependencies": {
     "mocha": "*",
     "istanbul": "*",
