@@ -2,6 +2,7 @@ ezlog
 =====
 
 [![Build Status](https://travis-ci.org/opensoars/ezlog.svg?branch=master)](https://travis-ci.org/opensoars/ezlog)
+[![Coverage Status](https://coveralls.io/repos/opensoars/ezlog/badge.png?branch=master)](https://coveralls.io/r/opensoars/ezlog?branch=master)
 
 Simple logger function that takes care of prefixes and colored output.
 
