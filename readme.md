@@ -8,10 +8,13 @@ ezlog
 
 Simple logger function that takes care of prefixes and colored output.
 
+
+---
+
+
 ## Dependencies
 * [cls](https://github.com/opensoars/cls)
 
----
 
 ## Install
 `npm install ezlog` or clone source into project node_modules folder.
