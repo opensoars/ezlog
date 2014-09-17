@@ -6,9 +6,10 @@ ezlog
 [![Dependency Status](http://img.shields.io/gemnasium/opensoars/ezlog.svg?style=flat)](https://gemnasium.com/opensoars/ezlog)
 
 
-
-
 Simple logger function that takes care of prefixes and colored output.
+
+## Dependencies
+* [cls](https://github.com/opensoars/cls)
 
 ---
 
