@@ -11,9 +11,10 @@ Simple logger function that takes care of prefixes and colored output.
 
 ---
 
-
 ## Dependencies
 * [cls](https://github.com/opensoars/cls)
+
+---
 
 
 ## Install
