@@ -1,6 +1,8 @@
 {
   "name": "ezlog",
-  "version": "0.0.6",
+  "version": "0.0.10",
+
+  "description": "Simple logger function that takes care of prefixes and colored output.",
 
   "scripts": {
     "test": "mocha ./test/mocha.js && npm run coverage && npm run coveralls",
@@ -9,7 +11,7 @@
   },
 
   "dependencies": {
-    "opensoars_cls": "0.0.2"
+    "opensoars_cls": "0.0.5"
   },
 
   "devDependencies": {
