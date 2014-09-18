@@ -4,7 +4,7 @@ ezlog
 [![Build Status](http://img.shields.io/travis/opensoars/ezlog.svg?style=flat)](https://travis-ci.org/opensoars/ezlog)
 [![Coverage Status](http://img.shields.io/coveralls/opensoars/ezlog.svg?style=flat)](https://coveralls.io/r/opensoars/ezlog)
 [![Dependency Status](https://david-dm.org/opensoars/ezlog.svg?style=flat)](https://david-dm.org/opensoars/ezlog)
-[![Development Dependency Status](http://img.shields.io/david/dev/opensoars/ezlog.svg?style=flat)](https://david-dm.org/opensoars/ezlog#info=devDependencies&view=table)
+[![Development Dependency Status](https://david-dm.org/opensoars/ezlog/dev-status.svg?style=flat)](https://david-dm.org/opensoars/ezlog#info=devDependencies&view=table)
 
 
 
