@@ -1,6 +1,6 @@
 {
   "name": "ezlog",
-  "version": "0.0.10",
+  "version": "0.0.11",
 
   "description": "Simple logger function that takes care of prefixes and colored output.",
 
@@ -11,7 +11,7 @@
   },
 
   "dependencies": {
-    "opensoars_cls": "0.0.5"
+    "opensoars_cls": "0.0.7"
   },
 
   "devDependencies": {
