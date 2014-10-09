@@ -5,13 +5,13 @@
   "description": "Simple logger function that takes care of prefixes and colored output.",
 
   "scripts": {
-    "test": "mocha ./test/mocha.js && npm run coverage && npm run coveralls",
-    "coverage": "istanbul cover ./test/coverage.js",
+    "test": "node node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha \"./test/mocha/*.js\"",
+    "localTest": "node node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha \"./test/mocha/*.js\" && npm run coverall",
     "coveralls": "node node_modules/coveralls/bin/coveralls.js < coverage/lcov.info"
   },
 
   "dependencies": {
-    "opensoars_cls": "0.0.7"
+    "opensoars_cls": "0.0.8"
   },
 
   "devDependencies": {
