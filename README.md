@@ -45,7 +45,7 @@ Which should result in the following:
 * [main test] world
 * [main test] {"a":"b"}
 
-Where [main test] will be colored green bold and underlined (if your OS terminal supports it), and 'hello', 'world' and `{"a":"b"}` will be colored blue bold.
+Where [main test] will be colored green bold and underlined (if your OS terminal supports it). And 'hello', 'world' and `{"a":"b"}` will be colored blue bold.
 
 ## Options
 * Multiple style properties: `['bold', 'underline']`. Or just one: `'bold'`
