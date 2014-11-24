@@ -12,28 +12,29 @@ Simple logger function that takes care of prefixes and colored output.
 
 ---
 
-### Dependencies
+## Dependencies
 * [cls](https://github.com/opensoars/cls)
 
 
-### Install
+## Install
 `npm install ezlog`
 
 
-### API
+## API
 `prefix_options = [text, [color], [style]]`
 
-Where `text` is an string or object to use as a prefix, `color` is an optional color and `style` is an optional style string or an array of style strings.
+Where `text` is a string or object to use as a prefix, `color` is an optional color and `style` is an optional style string or an array of style strings.
 
 `text_options = [text, [color], [style]]`
 
-Where `text` is an string or object to use as a prefix, `color` is an optional color and `style` is an optional style string or an array of style strings.
+Where `text` is a string or object to use as a prefix, `color` is an optional color and `style` is an optional style string or an array of style strings.
 
 `new Ezlog(prefix_options, t: text_options)`
 
-Creates an instance 
+Creates an instance to call in order to log.
 
-### Options
+
+## Options
 * Multiple style properties: `['bold', 'underline']`. Or just one: `'bold'`
 * 9 Colors
   * white
@@ -53,7 +54,7 @@ Creates an instance
   * strikethrough
 
 
-### Example
+## Example
 
 ```js
 var Ezlog = require('Ezlog');

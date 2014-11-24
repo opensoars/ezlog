@@ -7,3 +7,10 @@ var log = new Ezlog(
 
 log('Hello World!');
 log('one', 'two');
+log({a: 'b'})
+
+
+var log2 = new Ezlog(
+  [{a: 'b'}, 'green', ['underline', 'bold']],
+  ['blue', 'bold']
+);
