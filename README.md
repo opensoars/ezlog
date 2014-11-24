@@ -1,4 +1,4 @@
-ezlog
+Ezlog
 =====
 
 [![Build Status](http://img.shields.io/travis/opensoars/ezlog.svg?style=flat)](https://travis-ci.org/opensoars/ezlog)
@@ -79,4 +79,6 @@ Which should result in the following:
 * [main test] one
 * [main test] two
 
-Where `[main test]` will be colored green bold and underlined (if your OS terminal supports it). And `hello`, `world`, `one`, `two` and `{"a":"b"}` will be colored blue bold. When you pass two arguments to the Ezlog instance, it will result in a prefixed and color console.log call for both arguments
+Where `[main test]` will be colored green bold and underlined (if your OS terminal supports it). And `hello`, `world`, `one`, `two` and `{"a":"b"}` will be colored blue bold.
+
+When you pass two arguments to the Ezlog instance, it will result two separate `console.log` calls.
