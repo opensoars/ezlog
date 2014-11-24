@@ -46,7 +46,7 @@ Creates an instance to call in order to log.
   * magenta
   * red
   * yellow
-* 5 Styles (if supported by your os/terminal)
+* 5 Styles (if supported by your OS its termininal)
   * bold
   * italic
   * underline
@@ -79,6 +79,6 @@ Which should result in the following:
 * [main test] one
 * [main test] two
 
-Where `[main test]` will be colored green bold and underlined (if your OS terminal supports it). And `hello`, `world`, `one`, `two` and `{"a":"b"}` will be colored blue bold.
+Where `[main test]` will be styled bold and underlined green (if your OS its terminal supports it). And `hello`, `world`, `{"a":"b"}`, `one` and `two` will be styled bold blue.
 
-When you pass two arguments to the Ezlog instance, it will result two separate `console.log` calls.
+When you pass two arguments to the Ezlog instance, it will result in two separate `console.log` calls.
