@@ -33,6 +33,25 @@ Where `text` is an string or object to use as a prefix, `color` is an optional c
 
 Creates an instance 
 
+### Options
+* Multiple style properties: `['bold', 'underline']`. Or just one: `'bold'`
+* 9 Colors
+  * white
+  * grey
+  * black
+  * blue
+  * cyan
+  * green
+  * magenta
+  * red
+  * yellow
+* 5 Styles (if supported by your os/terminal)
+  * bold
+  * italic
+  * underline
+  * inverse
+  * strikethrough
+
 
 ### Example
 
@@ -60,22 +79,3 @@ Which should result in the following:
 * [main test] two
 
 Where `[main test]` will be colored green bold and underlined (if your OS terminal supports it). And `hello`, `world`, `one`, `two` and `{"a":"b"}` will be colored blue bold. When you pass two arguments to the Ezlog instance, it will result in a prefixed and color console.log call for both arguments
-
-## Options
-* Multiple style properties: `['bold', 'underline']`. Or just one: `'bold'`
-* 9 Colors
-  * white
-  * grey
-  * black
-  * blue
-  * cyan
-  * green
-  * magenta
-  * red
-  * yellow
-* 5 Styles (if supported by your os/terminal)
-  * bold
-  * italic
-  * underline
-  * inverse
-  * strikethrough
