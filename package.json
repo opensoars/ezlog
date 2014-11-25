@@ -1,6 +1,6 @@
 {
   "name": "ezlog",
-  "version": "0.0.13",
+  "version": "0.0.14",
 
   "description": "Simple logger function that takes care of prefixes and colored output.",
 
