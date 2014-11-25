@@ -7,7 +7,7 @@ Ezlog
 [![Development Dependency Status](https://david-dm.org/opensoars/ezlog/dev-status.svg?style=flat)](https://david-dm.org/opensoars/ezlog#info=devDependencies&view=table)
 
 
-Simple logger function that takes care of prefixes and colored output.
+Simple logger module that takes care of prefixes and coloured output.
 
 
 ---
