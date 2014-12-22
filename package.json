@@ -1,6 +1,6 @@
 {
   "name": "ezlog",
-  "version": "0.0.14",
+  "version": "0.0.15",
 
   "description": "Simple logger function that takes care of prefixes and colored output.",
 
@@ -24,6 +24,13 @@
     "type": "git",
     "url": "https://github.com/opensoars/ezlog"
   },
+
+  "keywords": [
+    "cli",
+    "terminal",
+    "colors",
+    "styles"
+  ],
 
   "readmeFilename": "README.md"
 }
