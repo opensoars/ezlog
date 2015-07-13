@@ -1,87 +1,72 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en-us">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Ezlog : Simple logger function that takes care of prefixes and colored output.">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Ezlog</title>
+    <meta charset="UTF-8">
+    <title>Ezlog by opensoars</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
-
   <body>
+    <section class="page-header">
+      <h1 class="project-name">Ezlog</h1>
+      <h2 class="project-tagline">Simple logger function that takes care of prefixes and colored output.</h2>
+      <a href="https://github.com/opensoars/ezlog" class="btn">View on GitHub</a>
+      <a href="https://github.com/opensoars/ezlog/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/opensoars/ezlog/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/opensoars/ezlog">View on GitHub</a>
+    <section class="main-content">
+      <h1>
+<a id="ezlog" class="anchor" href="#ezlog" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ezlog</h1>
 
-          <h1 id="project_title">Ezlog</h1>
-          <h2 id="project_tagline">Simple logger function that takes care of prefixes and colored output.</h2>
+<p><a href="https://codeclimate.com/github/opensoars/ezlog"><img src="https://codeclimate.com/github/opensoars/ezlog/badges/gpa.svg" alt="Code Climate"></a>
+<a href="http://inch-ci.org/github/opensoars/ezlog"><img src="https://inch-ci.org/github/opensoars/ezlog.svg?branch=master" alt="Inline docs"></a>
+<a href="https://travis-ci.org/opensoars/ezlog"><img src="http://img.shields.io/travis/opensoars/ezlog.svg?style=flat" alt="Build Status"></a>
+<a href="https://coveralls.io/r/opensoars/ezlog"><img src="http://img.shields.io/coveralls/opensoars/ezlog.svg?style=flat" alt="Coverage Status"></a></p>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/opensoars/ezlog/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/opensoars/ezlog/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
+<p><a href="https://david-dm.org/opensoars/ezlog"><img src="https://david-dm.org/opensoars/ezlog.svg?style=flat" alt="Dependency Status"></a>
+<a href="https://david-dm.org/opensoars/ezlog#info=devDependencies&amp;view=table"><img src="https://david-dm.org/opensoars/ezlog/dev-status.svg?style=flat" alt="Development Dependency Status"></a></p>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a name="ezlog" class="anchor" href="#ezlog"><span class="octicon octicon-link"></span></a>ezlog</h1>
+<p>Simple logger module that takes care of prefixes and coloured output.</p>
 
-<p><a href="https://travis-ci.org/opensoars/ezlog"><img src="http://img.shields.io/travis/opensoars/ezlog.svg?style=flat" alt="Build Status"></a>
-<a href="https://coveralls.io/r/opensoars/ezlog"><img src="http://img.shields.io/coveralls/opensoars/ezlog.svg?style=flat" alt="Coverage Status"></a>
-<a href="https://gemnasium.com/opensoars/ezlog"><img src="http://img.shields.io/gemnasium/opensoars/ezlog.svg?style=flat" alt="Dependency Status"></a></p>
+<hr>
 
-<p>Simple logger function that takes care of prefixes and colored output.</p>
-
-<hr><h2>
-<a name="dependencies" class="anchor" href="#dependencies"><span class="octicon octicon-link"></span></a>Dependencies</h2>
+<h2>
+<a id="dependencies" class="anchor" href="#dependencies" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dependencies</h2>
 
 <ul>
 <li><a href="https://github.com/opensoars/cls">cls</a></li>
-</ul><h2>
-<a name="install" class="anchor" href="#install"><span class="octicon octicon-link"></span></a>Install</h2>
-
-<p><code>npm install ezlog</code> or clone source into project node_modules folder.</p>
+</ul>
 
 <h2>
-<a name="use" class="anchor" href="#use"><span class="octicon octicon-link"></span></a>Use</h2>
+<a id="install" class="anchor" href="#install" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install</h2>
 
-<div class="highlight highlight-js"><pre><span class="kd">var</span> <span class="nx">Ezlog</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'Ezlog'</span><span class="p">);</span>
-
-<span class="kd">var</span> <span class="nx">log</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Ezlog</span><span class="p">({</span>
-    <span class="nx">pref</span><span class="o">:</span> <span class="p">{</span>
-        <span class="nx">t</span><span class="o">:</span> <span class="s1">'[main test]'</span><span class="p">,</span>
-        <span class="nx">c</span><span class="o">:</span> <span class="s1">'green'</span><span class="p">,</span>
-        <span class="nx">s</span><span class="o">:</span> <span class="p">[</span><span class="s1">'underline'</span><span class="p">,</span> <span class="s1">'bold'</span><span class="p">]</span>
-    <span class="p">},</span>
-
-    <span class="nx">text</span><span class="o">:</span> <span class="p">{</span> <span class="nx">c</span><span class="o">:</span> <span class="s1">'blue'</span><span class="p">,</span> <span class="nx">s</span><span class="o">:</span> <span class="s1">'bold'</span> <span class="p">}</span>
-<span class="p">});</span>
-
-</pre></div>
-
-<p>Which should result in the following:</p>
-
-<ul>
-<li>[main test] hello</li>
-<li>[main test] world</li>
-<li>[main test] {"a":"b"}</li>
-</ul><p>Where [main test] will be colored green bold, and 'hello', 'world' and <code>{"a":"b"}</code> will be colored blue bold.</p>
+<p><code>npm install ezlog</code></p>
 
 <h2>
-<a name="options" class="anchor" href="#options"><span class="octicon octicon-link"></span></a>Options</h2>
+<a id="api" class="anchor" href="#api" aria-hidden="true"><span class="octicon octicon-link"></span></a>API</h2>
+
+<p><code>prefix_options = [text, [color], [style]]</code></p>
+
+<p>Where <code>text</code> is a string or object to use as a prefix, <code>color</code> is an optional color and <code>style</code> is an optional style string or an array of style strings.</p>
+
+<p><code>text_options = [text, [color], [style]]</code></p>
+
+<p>Where <code>text</code> is a string or object to use as a prefix, <code>color</code> is an optional color and <code>style</code> is an optional style string or an array of style strings.</p>
+
+<p><code>new Ezlog(prefix_options, t: text_options)</code></p>
+
+<p>Creates an instance to call in order to log.</p>
+
+<h2>
+<a id="options" class="anchor" href="#options" aria-hidden="true"><span class="octicon octicon-link"></span></a>Options</h2>
 
 <ul>
 <li>Multiple style properties: <code>['bold', 'underline']</code>. Or just one: <code>'bold'</code>
 </li>
-<li>Prefixes if needed.</li>
 <li>9 Colors
 
 <ul>
@@ -96,7 +81,7 @@
 <li>yellow</li>
 </ul>
 </li>
-<li>5 Styles (if supported by your os/terminal)
+<li>5 Styles (if supported by your OS its termininal)
 
 <ul>
 <li>bold</li>
@@ -107,18 +92,46 @@
 </ul>
 </li>
 </ul>
-      </section>
-    </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Ezlog maintained by <a href="https://github.com/opensoars">opensoars</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+<h2>
+<a id="example" class="anchor" href="#example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example</h2>
+
+<div class="highlight highlight-js"><pre><span class="pl-k">var</span> Ezlog <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>Ezlog<span class="pl-pds">'</span></span>);
+
+<span class="pl-k">var</span> log <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">Ezlog</span>(
+  [<span class="pl-s"><span class="pl-pds">'</span>[main test]<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>green<span class="pl-pds">'</span></span>, [<span class="pl-s"><span class="pl-pds">'</span>underline<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>bold<span class="pl-pds">'</span></span>]],
+  [<span class="pl-s"><span class="pl-pds">'</span>blue<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>bold<span class="pl-pds">'</span></span>]
+);
+
+<span class="pl-c1">log</span>(<span class="pl-s"><span class="pl-pds">'</span>hello<span class="pl-pds">'</span></span>);
+<span class="pl-c1">log</span>(<span class="pl-s"><span class="pl-pds">'</span>world<span class="pl-pds">'</span></span>);
+<span class="pl-c1">log</span>({a<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>b<span class="pl-pds">'</span></span>});
+
+<span class="pl-c1">log</span>(<span class="pl-s"><span class="pl-pds">'</span>one<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>two<span class="pl-pds">'</span></span>);</pre></div>
+
+<p>Which should result in the following:</p>
+
+<ul>
+<li>[main test] hello</li>
+<li>[main test] world</li>
+<li>[main test] {"a":"b"}</li>
+<li>[main test] one</li>
+<li>[main test] two</li>
+</ul>
+
+<p>Where <code>[main test]</code> will be styled bold and underlined green (if your OS its terminal supports it). And <code>hello</code>, <code>world</code>, <code>{"a":"b"}</code>, <code>one</code> and <code>two</code> will be styled bold blue.</p>
+
+<p>When you pass two arguments to the Ezlog instance, it will result in two separate <code>console.log</code> calls.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/opensoars/ezlog">Ezlog</a> is maintained by <a href="https://github.com/opensoars">opensoars</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
       </footer>
-    </div>
 
-    
+    </section>
 
+  
   </body>
 </html>
+
