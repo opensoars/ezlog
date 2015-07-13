@@ -2,7 +2,7 @@ Ezlog
 =====
 
 [![Code Climate](https://codeclimate.com/github/opensoars/ezlog/badges/gpa.svg)](https://codeclimate.com/github/opensoars/ezlog)
-[![Inline docs](http://inch-ci.org/github/opensoars/ezlog.svg?branch=master)](http://inch-ci.org/github/opensoars/ezlog)
+[![Inline docs](https://inch-ci.org/github/opensoars/ezlog.svg?branch=master)](http://inch-ci.org/github/opensoars/ezlog)
 [![Build Status](http://img.shields.io/travis/opensoars/ezlog.svg?style=flat)](https://travis-ci.org/opensoars/ezlog)
 [![Coverage Status](http://img.shields.io/coveralls/opensoars/ezlog.svg?style=flat)](https://coveralls.io/r/opensoars/ezlog)
 
